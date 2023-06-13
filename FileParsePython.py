@@ -16,7 +16,7 @@ class Student:
 
 
 #Main Function
-textFilePath = os.path.join("C:\\", "Users","yang_","Downloads","3students_separate_fields.txt") #Open File
+textFilePath = os.path.join("3students_separate_fields.txt") #Open File
 outFile = open(textFilePath,"r")
 textData = outFile.readlines()
 rawData = []
@@ -28,5 +28,4 @@ for line in textData:
 for i in range(int(len(rawData)/6)): # Print out new student every 6 elements
     j = i*6
     print(Student(i,rawData[j],rawData[j+1],rawData[j+2],rawData[j+3],rawData[j+4],rawData[j+5]))
-print(Student())
 outFile.close()
