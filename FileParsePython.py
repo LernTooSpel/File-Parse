@@ -16,7 +16,7 @@ class Student:
 
 
 #Main Function
-textFilePath = os.path.join("3students_separate_fields.txt") #Open File
+textFilePath = os.path.join('File-Parse','3students_separate_fields.txt') #Open File
 outFile = open(textFilePath,"r")
 textData = outFile.readlines()
 rawData = []
