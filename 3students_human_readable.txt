@@ -1,0 +1,5 @@
+FirstName  LastName   Birthday    Education  Degree      Hobby
+=========  =========  ==========  =========  ==========  ========
+John       Doe        01/01/2000  Graduated  Bachelor's  Baseball
+Grace      Johnson    10/08/2001  Studying   Master's    Tennis  
+Don        Lancaster  04/05/2000  Studying   Bachelor's  Soccer  
